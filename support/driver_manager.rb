@@ -16,6 +16,7 @@ class DriverManager
     browser.manage.timeouts.implicit_wait = 0
     browser.manage.timeouts.script_timeout = 10
     browser.manage.delete_all_cookies
+    browser.manage.window.maximize
 
     browser
   end
